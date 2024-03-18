@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeamento de vídeos e imagens</title>
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap')">
+  <style>
+    body {
+    background-image: url('https://i.pinimg.com/736x/fa/d9/54/fad9548108c0e0875bc5e1a01d32f41b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%); 
+    font-family: "Sniglet", system-ui; 
+    font-weight: 400; 
+    font-style: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 33.33%;
+    border: 10px solid rgb(136, 132, 132);
+    padding: 5px;
+    text-align: center;
+}
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+p {
+    margin: 5px 0;
+}
+h1 {
+    text-align: center;
+    background-color:rgb(95, 95, 95);
+}
+title{
+    text-color:rgb(0, 0, 0);
+}
+
+img:hover, iframe:hover{
+    transform:scale(1.1);
+}
+
+  </style>
+    
+</head>
+<body>
+    <h1>Mapeamento de vídeos e imagens</h1>
+    <table>
+        <tr>
+            <td>
+                <img src="https://comunidadeculturaearte.com/wp-content/uploads/2021/06/Neon-Genesis-Evangelion5.jpg" onclick="window.open('https://comunidadeculturaearte.com/wp-content/uploads/2021/06/Neon-Genesis-Evangelion5.jpg', '_blank')">
+                <p style="color:rgb(0, 0, 0);"> - Evangelion</p>
+            </td>
+            <td>
+                <img src="https://www.mundodeportivo.com/alfabeta/hero/2023/07/dr.-stone-portada.jpeg?width=1200" onclick="window.open('https://www.mundodeportivo.com/alfabeta/hero/2023/07/dr.-stone-portada.jpeg?width=1200', '_blank')">
+                <p style="color:rgb(255, 255, 255);">- Dr.Stone</p>
+            </td>
+            <td>
+                <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2023/12/fullmetal_alchemist_brotherhood__1b9230c-1210x544.jpg"onclick="window.open('https://uploads.jovemnerd.com.br/wp-content/uploads/2023/12/fullmetal_alchemist_brotherhood__1b9230c-1210x544.jpg', '_blank')">
+                <p style="color:rgb(0, 0, 0);">- Fullmetal Alchemist</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/AIyS4kT--4Y" frameborder="0" allowfullscreen></iframe>
+                <p style="color:rgb(255, 255, 255);">Anime - Evangelion</p>
+            </td>
+            <td>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/Pv9QhKyai5w" frameborder="0" allowfullscreen></iframe>
+                <p style="color:rgb(255, 255, 255);">Anime - Dr.Stone</p>
+            </td>
+            <td>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/uT6BT6_Od88" frameborder="0" allowfullscreen></iframe>
+                <p style="color:rgb(255, 255, 255);">Anime - Fullmetal Alchemist</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
